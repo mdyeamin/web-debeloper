@@ -1,0 +1,55 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size:50px;
+    text-transform: capitalize;
+    line-height: 34px;
+}
+.heading-1{
+    margin-top: 100px;
+}
+.orange-color{
+    color:orange
+}
+.header-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+display: flex;
+}
+.div-area{
+    width:50%;
+}
+.div-area img{
+    width:80%;
+}
+
+.left-area{
+    margin: 0 5%;
+    margin-left:5%;
+}
+
+.hire-btn {
+    background-image:linear-gradient(orange, tomato);
+padding:10px 50px;
+border-radius:5px;
+}
+
+.hire-btn{
+    color:#fff;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.hire-btn:hover{
+    background-image:linear-gradient(tomato, orange);
+}
+
