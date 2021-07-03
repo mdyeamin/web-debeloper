@@ -19,6 +19,7 @@ h1{
 }
 section{
 display: flex;
+margin-bottom: 150px;
 }
 .div-area{
     width:50%;
@@ -53,3 +54,20 @@ a:hover{
     background-image:linear-gradient(tomato, orange);
 }
 
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right top 200px;
+    
+}
+
+.right-area{
+    margin: 0 5%;
+    margin-right:5%;
+}
+
+.dream-big img{
+    margin: 0 5%;
+    margin-left: 5%;
+}
